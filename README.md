@@ -1,2 +1,2 @@
 # calculator
-Calculator with GUI for simple arithhmetic operations
+Web-based calculator
