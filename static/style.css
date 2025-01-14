@@ -12,6 +12,11 @@ body {
     border-radius: 10px;
     background-color: #f9f9f9;
 }
+h1{
+    font-size: 72px; 
+    margin-right: 130px; 
+    line-height: 1.5;
+}
 
 #display {
     width: 100%;
