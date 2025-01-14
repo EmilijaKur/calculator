@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.calculator {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttons button {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+
+.equal {
+    background-color: #4CAF50;
+    color: blue;
+    grid-column: span 2; /* Makes the "=" button span two columns */
+}body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(to bottom, #00b4d8, #0096c7); /* Blue gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.calculator {
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Slight shadow for 3D effect */
+    width: 320px;
+    max-width: 100%;
+    border: 2px solid #00b4d8;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: right;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.buttons button {
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    border: none;
+    background-color: #a2d2ff; /* Light blue for operations */
+    border-radius: 10px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #69b8ff; /* Darker light blue for hover effect */
+}
+
+.equal {
+    background-color: #0077b6;
+    color: white;
+    grid-column: span 2;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.equal:hover {
+    background-color: #005f85;
+}
