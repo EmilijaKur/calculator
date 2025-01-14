@@ -9,4 +9,4 @@ A modern, responsive, and lightweight calculator website built using Python, HTM
 - Keyboard-friendly and accessible
 ## Screenshot
 ### Desktop View
-![Calculator Desktop View](calculator.png)
+![Calculator Desktop View](Calculator.png)
