@@ -1,2 +1,2 @@
 # calculator
-Simple calculator with frontend and backend
+Calculator with GUI for simple arithhmetic operations
